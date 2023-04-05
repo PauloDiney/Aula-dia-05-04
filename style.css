@@ -1,0 +1,91 @@
+html {
+    height: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+main {
+    width: 400px;
+    background-color: rgb(240, 240, 240);
+    padding: 30px;
+    height: 300px;
+
+}
+
+.resultado  input{
+    width: 400px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+
+}
+
+
+
+.button {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+    
+    flex-direction: column;
+
+}
+
+.button button {
+    width: 50px;
+    height: 50px;
+    background-color: #004aad;
+    padding: 10px;
+    border-color: white;
+}
+
+.button :hover{
+    background-color: white;
+    color: #004aad;
+}
+
+
+.pula {
+    display: flex;
+   justify-content: center ;
+   align-items: center;
+   flex-direction: row;
+    
+}
+
+.acoes {
+    background-color:rgb(240, 240, 240);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.acoes button {
+    width: 50px;
+    height: 50px;
+   background-color: #004aad;
+    font-size: 16px;
+    border-color: white;
+    
+}
+
+.acoes :hover{
+    background-color: white;
+    color: blue;
+}
